@@ -14,10 +14,10 @@ Fraquezas: Caracter (70)
 Evolução: Caracter (71)
 Região: Caracter (10)
 
-# Até aqui é a Modelagem Física#
+# Modelagem Física #
 
-Create Database Lista de Pokemons;
-Use Lista de Pokemons;
+Create Database Pokedex;
+Use Pokedex;
 
 Create Table Pokemon(
 Nº da Pokedex CHAR(4),
@@ -120,9 +120,9 @@ VALUES
 	(0083, 'Farfetch’d', 15.0, 0.8, 'Normal', 'Voador', 'Elétrico, Gelo e Pedra', 'Sirfetch’d', 'Kanto'),
 	(0084, 'Doduo', 39.2, 1.4, 'Normal', 'Voador', 'Elétrico, Gelo e Pedra', 'Dodrio', 'Kanto'),
 	(0085, 'Dodrio', 85.2, 1.8, 'Normal', 'Voador', 'Elétrico, Gelo e Pedra', 'N/A', 'Kanto'),
-    (0086, 'Seel', 90.0, 1.1, 'Agua', 'Nenhum', 'Grama e Elétrico', 'Dewgong', 'Kanto'),
+        (0086, 'Seel', 90.0, 1.1, 'Agua', 'Nenhum', 'Grama e Elétrico', 'Dewgong', 'Kanto'),
 	(0087, 'Dewgong', 120.0, 1.7, 'Agua', 'Nenhum', 'Grama, Elétrico, Lutador e Pedra', 'Dewgong', 'Kanto'),
-    (0088, 'Grimer', 30.0, 0.9, 'Venenoso', 'Nenhum', 'Psiquico e Terra', 'Muk', 'Kanto'),
+        (0088, 'Grimer', 30.0, 0.9, 'Venenoso', 'Nenhum', 'Psiquico e Terra', 'Muk', 'Kanto'),
 	(0089, 'Muk', 30.0, 1.2, 'Venenoso', 'Nenhum', 'Psiquico e Terra', 'N/A', 'Kanto'),
 	(0090, 'Shellder', 4.0, 0.3, 'Agua', 'Nenhum', 'Grama e Elétrico', 'Cloyster', 'Kanto'),
 	(0091, 'Cloyster', 132.5, 1.5, 'Agua', 'Gelo', 'Grama, Elétrico, Lutador e Pedra', 'N/A', 'Kanto'),
@@ -168,11 +168,11 @@ VALUES
 	(0131, 'Lapras', 220.0, 2.5, 'Agua', 'Gelo', 'Grama, Elétrico, Lutador e Pedra', 'Gyarados', 'Kanto'),
 	(0132, 'Dito', 4.0, 0.3, 'Normal', 'Nenhum', 'Lutador','N/A','Kanto'),
 	(0133, 'Eevee', 6.5, 0.3, 'Normal', 'Nenhum', 'Lutador','Vaporeon, Jolteon, Flareon,, Espeon, Umbreon, Leafeon, Glaceon ou Sylveon','Kanto'),
-    (0134, 'Vaporeon', 29.0, 1.0, 'Agua', 'Nenhum', 'Grama e Elétrico', 'N/A', 'Kanto'),	
+        (0134, 'Vaporeon', 29.0, 1.0, 'Agua', 'Nenhum', 'Grama e Elétrico', 'N/A', 'Kanto'),	
 	(0135, 'Jolteon', 24.5, 0.8, 'Elétrico', 'Nenhum', 'Terra', 'N/A', 'Kanto'),	
 	(0136, 'Flareon', 25.0, 0.9, 'Fogo', 'Nenhum', 'Agua, Terra e Pedra', 'N/A', 'Kanto'),	
 	(0137, 'Porygon', 36.5, 0.8, 'Normal', 'Nenhum', 'Lutador', 'Porygon2', 'Kanto'),
-    (0138, 'Omanyte', 7.5, 0.4, 'Pedra', 'Agua', 'Grama, Elétrico, Lutador e Terra', 'Omastar', 'Kanto'),	
+        (0138, 'Omanyte', 7.5, 0.4, 'Pedra', 'Agua', 'Grama, Elétrico, Lutador e Terra', 'Omastar', 'Kanto'),	
 	(0139, 'Omastar', 35.0, 1.0, 'Pedra', 'Agua', 'Grama, Elétrico, Lutador e Terra', 'N/A', 'Kanto'),	
 	(0140, 'Kabuto', 11.5, 0.5, 'Pedra', 'Agua', 'Grama, Elétrico, Lutador e Terra', 'Kabutops', 'Kanto'),
 	(0141, 'Kabutops', 40.5, 1.3, 'Pedra', 'Agua', 'Grama, Elétrico, Lutador e Terra', 'N/A', 'Kanto'),
