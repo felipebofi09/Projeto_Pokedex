@@ -4,7 +4,10 @@ Olá pessoal, aqui serão disponibilizado os principais Scripts para você busca
 
 2: Buscar Pokémons por nome (exato): SELECT * FROM Pokemon WHERE nome = 'nome_do_pokemon';
 
-3: Buscar Pokémons por nome (parcial ou similar): SELECT * FROM Pokemon WHERE nome LIKE '%palavra_chave%';
+3: Buscar todas as informações de Pokémons do tipo Agua, com Subtipo Planta: 
+
+SELECT * FROM Pokemon
+WHERE Tipo = 'Agua' AND Subtipo = 'Planta';
 
 4: Buscar Pokémon por número na Pokedex: SELECT * FROM Pokemon WHERE `Numero da Pokedex` = 1;
 # OBS: O "1" pode ser substituído pelo número específico da Pokedex do Pokémon que você deseja buscar :) #
