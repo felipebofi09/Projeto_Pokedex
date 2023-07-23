@@ -1,0 +1,62 @@
+Olá pessoal, aqui serão disponibilizado os principais Scripts para você buscar informações no Projeto Pokedex.
+
+1: Selecionar todos os registros da tabela Pokemon: SELECT * FROM Pokemon;
+
+2: Buscar Pokémons por nome (exato): SELECT * FROM Pokemon WHERE nome = 'nome_do_pokemon';
+
+3: Buscar Pokémons por nome (parcial ou similar): SELECT * FROM Pokemon WHERE nome LIKE '%palavra_chave%';
+
+4: Buscar Pokémon por número na Pokedex: SELECT * FROM Pokemon WHERE numero_da_pokedex = numero_do_pokemon;
+# OBS: O "numero_do_pokemon" deve ser substituído pelo número específico da Pokedex do Pokémon que você deseja buscar :) #
+
+5: Buscar Pokémons por tipo: SELECT * FROM Pokemon WHERE tipo = 'tipo_do_pokemon';             Exemplo 2: SELECT * FROM Pokemon WHERE tipo = 'água';
+
+6: Buscar Pokémons com base em várias condições usando AND e OR: SELECT * FROM Pokemon WHERE tipo = 'Fogo' AND geracao >= 1;
+
+7: Ordenar a Pokedex por ordem alfabética de nomes dos Pokémon: SELECT * FROM Pokemon ORDER BY nome ASC;
+
+8: Buscar Pokemons da 2º geração, mostrando o Nome, Tipo e Peso, por ordem crescente: 
+
+SELECT nome, tipo, peso FROM Pokemon
+WHERE tipo = 'fogo' AND geracao = 2 AND peso > 10
+ORDER BY nome ASC;
+
+9: Buscar Pokemons do tipo pedra, que pesam mais de 20kg, mostrando apenas o nome e a geração dos mesmos:
+
+SELECT nome, geracao FROM Pokemon
+WHERE tipo = 'Pedra' AND peso > 20;
+
+10: Buscar os 5 Pokemons mais pesados da 1º a 3º geração: 
+
+SELECT nome, peso FROM Pokemon
+ORDER BY peso DESC
+LIMIT 5;
+
+11: Buscar os 5 Pokemons mais leves da 1º a 3º geração:
+
+SELECT nome, peso FROM Pokemon
+ORDER BY peso ASC
+LIMIT 5;
+
+12: Contar quantos Pokemons existem de cada tipo, da 1º a 3º geração:
+
+SELECT tipo, COUNT(*) AS quantidade
+FROM Pokemon
+GROUP BY tipo;
+
+13: Contar quantos Pokemons existem de cada tipo, da 1º a 3º Geração, mostrando, além da quantidade, a geração a qual se referem.
+
+SELECT tipo, geracao, COUNT(*) AS quantidade
+FROM Pokemon
+GROUP BY tipo, geracao
+ORDER BY tipo;
+
+
+
+
+
+
+
+
+
+
