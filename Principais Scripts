@@ -47,7 +47,15 @@ SELECT tipo, COUNT(*) AS quantidade
 FROM Pokemon
 GROUP BY tipo;
 
-13: Contar quantos Pokemons existem de cada tipo, da 1º a 3º Geração, mostrando, além da quantidade, a geração a qual se referem.
+13: Contar quantos Pokemons existem de cada tipo, da 1º a 3º geração, organizados de maneira crescente:
+
+SELECT tipo, COUNT(*) AS quantidade
+FROM Pokemon
+WHERE Geração BETWEEN 1 AND 3   -- Para filtrar apenas a 1ª, 2ª e 3ª geração
+GROUP BY tipo
+ORDER BY COUNT(*) ASC;
+
+14: Contar quantos Pokemons existem de cada tipo, da 1º a 3º Geração, mostrando, além da quantidade, a geração a qual se referem.
 
 SELECT tipo, Geração, COUNT(*) AS quantidade
 FROM Pokemon
