@@ -426,4 +426,4 @@ VALUES                                            # Primeira Geração #
 	(0385, 'Jirachi', 1.1, 0.3, 'Metal', 'Psiquico', 'Fantasma, Fogo, Escuridão e Terra', 'N/A', '3'),
 	(0386, 'Deoxys', 60.8, 1.7, 'Psiquico', 'Nenhum', 'Fantasma, Escuridão e Inseto', 'N/A', '3'),
 	
-                                                           😎 # Em construção # 😎
+                                                
