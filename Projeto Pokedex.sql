@@ -1,21 +1,3 @@
-# Modelagem Conceitual #
-
-# Pokedex #
-
-Lista de Pokemons:
-
-Numéro da Pokedex: Caracter (4)
-Nome: Caracter (14)
-Peso Médio: Float 
-Altura Média: Float
-Tipo: Caracter (15)
-Subtipo: Caracter (15)
-Fraquezas: Caracter (70)
-Evolução: Caracter (100)
-Geração: Caracter (3)
-
-# Até aqui é a Modelagem Física#
-
 Create Database Pokedex;
 Use Pokedex;
 
