@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Principais Scripts do Projeto Pokedex </title>
+
 </head>
 <body>
   <h1>Principais Scripts do Projeto Pokedex</h1>
