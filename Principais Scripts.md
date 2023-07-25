@@ -4,7 +4,7 @@
 
 </head>
 <body>
-  <h1>Principais Scripts do Projeto Pokedex</h1>
+  <h1>Principais Scripts do Projeto Pokedex 🐾 </h1>
   <p>Aqui estão os principais scripts para buscar informações no Projeto Pokedex:</p>
 
   <h3>Selecionar todos os registros da tabela Pokemon:</h3>
