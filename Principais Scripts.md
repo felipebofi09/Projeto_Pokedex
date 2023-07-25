@@ -44,7 +44,7 @@
     <code>SELECT * FROM Pokemon ORDER BY nome ASC;</code>
   </pre>
 
-  <h3>Buscar Pokemons da 2ª geração, mostrando o Nome, Tipo e Peso, por ordem crescente:</h3>
+  <h3>Buscar Pokemons da 2ª geração de Fogo, mostrando o Nome, Tipo e Peso, por ordem crescente:</h3>
   <pre>
     <code>SELECT nome, tipo, `Peso Médio` FROM Pokemon
     WHERE tipo = 'Fogo' AND Geração = '2' AND `Peso Médio` > 10
